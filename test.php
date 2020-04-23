@@ -1,1 +1,4 @@
-This is testing jenkins job
+<?php
+echo 'This is testing jenkins job';
+
+?>
