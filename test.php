@@ -1,6 +1,8 @@
 <?php
-echo "This is testing jenkins job"
 
-echo "to many test"
+echo "This is testing jenkins job";
+
+echo "to many test";
+
 
 ?>
