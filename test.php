@@ -1,6 +1,6 @@
 <?php
 
-echo 'This is testing jenkins job';
+echo 'Trigger commit message hook';
 echo 'to many test cases ';
 
 
