@@ -1,0 +1,21 @@
+repos:
+-   repo: https://git.entrata.com/gbhise/pre-commit.git
+    rev: 1.0.4
+    hooks:
+    -   id: php-lint
+    -   id: php-cs
+        files: \.(php)$
+        args: [--standard=/c/svn/PsCore/trunk/Libraries/Psi/PhpCodeSniffer/PSI/ruleset.xml]
+
+-   repo: https://git.entrata.com/gbhise/pre-commit.git
+    rev: 1.0.4
+    hooks:
+    -   id: php-utf
+        files: \.(php)$
+        args: [--standard=/c/svn/PsCore/trunk/Libraries/Psi/PhpCodeSniffer/PSI/ruleset.xml]
+-   repo: https://git.entrata.com/gbhise/pre-commit.git
+    rev: 1.0.4
+    hooks:
+    -   id: php-block-commit
+        files: \.(php)$
+        args: []

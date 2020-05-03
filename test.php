@@ -1,7 +1,13 @@
 <?php
 
-echo 'Trigger commit message hook and validate';
+$strUsername = 'testing';
 
-echo 'Commit completed successfully  ';
+$objResCurl = curl_init();
 
+curl_setopt_array( $objResCurl, $arrstrCurlOptions );
+
+print_r( $arrstrCurlOptions );
+
+
+$strResult = curl_exec( $objResCurl );
 ?>
